@@ -12,7 +12,30 @@ int main(void) {
 	uint8_t BIT5 = 0b00100000;
 	uint8_t BIT6 = 0b01000000;
 	uint8_t BIT7 = 0b10000000;
-	printBinary(BIT7);
+	
+//	BIT0 = BIT0 & BIT1;		//0b00000000
+//	printBinary(BIT0);		//klopt
+
+//	BIT0 &= BIT1;			//0b00000000
+//	printBinary(BIT0);		//klopt
+
+//	BIT0 &= ~BIT1;			//0b00000001
+//	printBinary(BIT0);		//klopt
+
+//	BIT1 = BIT1 | BIT2;		//0b00000110
+//	printBinary(BIT1);		//klopt
+
+//	BIT1 |= BIT2;			//0b00000110
+//	printBinary(BIT1);		//klopt
+
+//	BIT1 |= BIT2 | BIT3 | BIT4 | BIT5 | BIT6 | BIT7;	//0b11111110
+//	printBinary(BIT1);									//klopt
+
+//	BIT1 ^= BIT4;			//0b00010010
+//	printBinary(BIT1);		//klopt
+
+//	BIT2 &= BIT3 | BIT4 | BIT5 | BIT6;		//0b00000000
+//	printBinary(BIT2);						//klopt
 }
 
 void printBinary(uint8_t n) {
