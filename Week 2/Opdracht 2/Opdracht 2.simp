@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="15.1" multi-file="no" uid="simp2a801ddb0dbe4cda97b7de88df0e8069" creation-date="09/11/2025 15:20:14">
+  <meta>
+    <name>Opdracht 2</name>
+    <authors>Matthijs Vos</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names />
+    <entity-ids />
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-eb33aa68bb554603a6f8333920187831" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Matthijs</first-name>
+        <last-name>Vos</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-e5ad9a085516482ab566c3030b691649" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pf207708f3a0d462db5635b5c38ca2920_361639435" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>Matthijs Vos</author>
+        </authors>
+        <description />
+        <creation-date>09/11/2025 15:20:28</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pc4a40358ffc3491c8b6bce8375aa629f_671981781" name="ClassDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Matthijs Vos</author>
+          </authors>
+          <description />
+          <creation-date>09/11/2025 15:20:28</creation-date>
+          <change-date>09/11/2025 15:20:28</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="47e29d90569640a7b4ba6c5b06bc2f63" name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+    </model>
+  </models>
+</sim-project>
