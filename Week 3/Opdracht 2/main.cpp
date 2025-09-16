@@ -28,7 +28,7 @@ public:
 		mLeden.push_back(p);
 	}
 	void Print() const {
-		printf("-------Team-------\n");
+		printf("\n-------Team-------\n");
 		for (auto p : mLeden) {
 			p->Print();
 		}
